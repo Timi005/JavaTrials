@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Krunch</title>
+        <link rel="stylesheet" href="portfolio.css">
+        <link rel="icon" href="image/fav.jpg">
+        <link rel="stylesheet" href="assets/css/font-awesome.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+        <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    </head>
+   
+
+        <body>
+                <nav class="navbar">
+                  <div class="content">
+                    <div class="logo">
+                      <a href="#">Krunch</a>
+                    </div>
+                    <ul class="menu-list">
+                      <div class="icon cancel-btn">
+                        <i class="fas fa-times"></i>
+                      </div>
+                      <li><a href="portfolio.html">HOME</a></li>
+                      <li><a href="portfolio.html#about">ABOUT</a></li>
+                      <li><a href="portfolio.html#portfolio">PORTFOLIO</a></li>
+                      <li><a href="portfolio.html#services">SERVICES</a></li>
+                      <li><a href="portfolio.html#contact">CONTACT</a></li>
+                    </ul>
+                    <div class="icon menu-btn">
+                      <i class="fas fa-bars"></i>
+                    </div>
+                  </div>
+				</nav>
+				<div id= "particles-js">
+                      
+					<h3>Krunch Clothing Apparrel</h3>
+						<h5>Amazing wears at affordable prices</h5>
+			   
+			</div>
+		  <script type= "text/javascript" src="js/particles.min.js"></script>
+		  <script type= "text/javascript" src="js/app.js"></script>
+
+		  
+
+		 <script>
+		   const body = document.querySelector("body");
+			const navbar = document.querySelector(".navbar");
+			const menuBtn = document.querySelector(".menu-btn");
+			const cancelBtn = document.querySelector(".cancel-btn");
+			menuBtn.onclick = ()=>{
+			  navbar.classList.add("show");
+			  menuBtn.classList.add("hide");
+			  body.classList.add("disabled");
+			}
+			cancelBtn.onclick = ()=>{
+			  body.classList.remove("disabled");
+			  navbar.classList.remove("show");
+			  menuBtn.classList.remove("hide");
+			}
+			window.onscroll = ()=>{
+			this.scrollY > 20 ? navbar.classList.add("sticky") : navbar.classList.remove("sticky");
+	  }
+  </script>      
+  
+  <section class=" section" id="about">
+	  <div class='wrapper'>
+		  <div class="section-header">
+			  <h2>About Us</h2>
+			  <div class=" text-italic text-large">Affordable </div>
+			  <div class="line-border"></div>
+		  </div>
+		  <div class="grid">
+			  <div class="v-align width-1-2">
+				  <div>
+					  <p>Lorem ipsum dolor sitamet, consectetur adipisicing elit, seddo eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quisus nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+					  
+				  </div>
+			  </div>
+			  <div class="align-center width-1-2">
+					  <img src="https://images.unsplash.com/photo-1511556532299-8f662fc26c06?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8ZmFzaGlvbiUyMHBuZ3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60">
+				  </div>
+		  </div>
+	  </div>
+  </section>
+
+  <section class="section" id ="portfolio">
+	<div class="wrapper">
+		<div class="section-header">
+			<h2> Portfolio</h2>
+			<div class="text-italic text-large">An eye for design makes us the best</div>
+			<div class="line-border"></div>
+		</div>
+	</div>
+	<div class="xop-section">
+		<ul class="xop-grid">
+			<li>
+				<div class="xop-box xop-img-1">
+					<a href="#">
+							<div class="image__overlay">
+									<div class="image__title">Jeans</div>
+									<p class="image__description">Soft cotton, amazing touch, easy to wash at affordable prices.</p>
+								
+							</div>
+							</a>
+				</div>
+			</li>
+			<li>
+					<div class="xop-box xop-img-2">
+						<a href="#">
+								<div class="image__overlay">
+										<div class="image__title">Jeans</div>
+										<p class="image__description">Soft cotton, amazing touch, easy to wash at affordable prices.</p>
+									
+								</div>
+						</a>
+					</div>
+				</li>
+				<li>
+						<div class="xop-box xop-img-3">
+							<a href="#">
+									<div class="image__overlay">
+											<div class="image__title">Jeans</div>
+											<p class="image__description">Soft cotton, amazing touch, easy to wash at affordable prices.</p>
+										
+									</div>
+									</a>
+						</div>
+					</li>
+					<li>
+							<div class="xop-box xop-img-4">
+								<a href="#">
+										<div class="image__overlay">
+												<div class="image__title">Jeans</div>
+												<p class="image__description">Soft cotton, amazing touch, easy to wash at affordable prices.</p>
+											
+										</div>
+								  </a>
+							</div>
+						</li>
+		</ul>
+		
+		</div>
+	</div>
+		
+	<div class="wrapper">
+		<div class= "align-center block-xlg">
+			<p class=text-italic text-large" style="font-weight:bold;">Have a lovely design in Mind?</p>
+			<a class="button outlined w-button" href="#contact">Contact Now</a> 
+		</div>
+</section>
+
+<section class="section" id ="services">
+              <div class="wrapper">
+                  <div class="section-header">
+                      <h2> Services</h2>
+                      <div class="text-italic text-large">We offer quality goods and services us the best</div>
+                      <div class="line-border"></div>
+                  </div>
+              </div>
+    <div class="process-wrapper">
+    <div id="progress-bar-container">
+        <ul>
+            <li class="step step01 active"><div class="step-inner">FASHION</div></li>
+            <li class="step step02"><div class="step-inner">DESIGN</div></li>
+            <li class="step step03"><div class="step-inner">Creativity</div></li>
+            <li class="step step04"><div class="step-inner">TAILORING</div></li>
+            <li class="step step05"><div class="step-inner">DELIVERY</div></li>
+        </ul>
+        
+        <div id="line">
+            <div id="line-progress"></div>
+        </div>
+    </div>
+    
+    <div id="progress-content-section">
+        <div class="section-content discovery active">
+            <h2>FASHION</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec neque justo, consequat non fermentum ac, tempor eu turpis. Proin nulla eros, placerat non ipsum ut, dapibus ullamcorper ex. Nulla in dapibus lorem. Suspendisse vitae velit ac ante consequat placerat ut sed eros. Nullam porttitor mattis mi, id fringilla ex consequat eu. Praesent pulvinar tincidunt leo et condimentum. Maecenas volutpat turpis at felis egestas malesuada. Phasellus sem odio, venenatis at ex a, lacinia suscipit orci.</p>
+        </div>
+        
+        <div class="section-content strategy">
+            <h2>GALLERY SECTION</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec neque justo, consequat non fermentum ac, tempor eu turpis. Proin nulla eros, placerat non ipsum ut, dapibus ullamcorper ex. Nulla in dapibus lorem. Suspendisse vitae velit ac ante consequat placerat ut sed eros. Nullam porttitor mattis mi, id fringilla ex consequat eu. Praesent pulvinar tincidunt leo et condimentum. Maecenas volutpat turpis at felis egestas malesuada. Phasellus sem odio, venenatis at ex a, lacinia suscipit orci.</p>
+        </div>
+        
+        <div class="section-content creative">
+            <h2>Creative CREATIONS</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec neque justo, consequat non fermentum ac, tempor eu turpis. Proin nulla eros, placerat non ipsum ut, dapibus ullamcorper ex. Nulla in dapibus lorem. Suspendisse vitae velit ac ante consequat placerat ut sed eros. Nullam porttitor mattis mi, id fringilla ex consequat eu. Praesent pulvinar tincidunt leo et condimentum. Maecenas volutpat turpis at felis egestas malesuada. Phasellus sem odio, venenatis at ex a, lacinia suscipit orci.</p>
+        </div>
+        
+        <div class="section-content production">
+            <h2>TESTIMONIALS NOW</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec neque justo, consequat non fermentum ac, tempor eu turpis. Proin nulla eros, placerat non ipsum ut, dapibus ullamcorper ex. Nulla in dapibus lorem. Suspendisse vitae velit ac ante consequat placerat ut sed eros. Nullam porttitor mattis mi, id fringilla ex consequat eu. Praesent pulvinar tincidunt leo et condimentum. Maecenas volutpat turpis at felis egestas malesuada. Phasellus sem odio, venenatis at ex a, lacinia suscipit orci.</p>
+        </div>
+        
+        <div class="section-content analysis">
+            <h2>OUR LOCATIONS</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec neque justo, consequat non fermentum ac, tempor eu turpis. Proin nulla eros, placerat non ipsum ut, dapibus ullamcorper ex. Nulla in dapibus lorem. Suspendisse vitae velit ac ante consequat placerat ut sed eros. Nullam porttitor mattis mi, id fringilla ex consequat eu. Praesent pulvinar tincidunt leo et condimentum. Maecenas volutpat turpis at felis egestas malesuada. Phasellus sem odio, venenatis at ex a, lacinia suscipit orci.</p>
+        </div>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+     <script>
+        
+        $(".step").click( function() {
+        $(this).addClass("active").prevAll().addClass("active");
+        $(this).nextAll().removeClass("active");
+    });
+    
+    $(".step01").click( function() {
+        $("#line-progress").css("width", "3%");
+        $(".discovery").addClass("active").siblings().removeClass("active");
+    });
+    
+    $(".step02").click( function() {
+        $("#line-progress").css("width", "25%");
+        $(".strategy").addClass("active").siblings().removeClass("active");
+    });
+    
+    $(".step03").click( function() {
+        $("#line-progress").css("width", "50%");
+        $(".creative").addClass("active").siblings().removeClass("active");
+    });
+    
+    $(".step04").click( function() {
+        $("#line-progress").css("width", "75%");
+        $(".production").addClass("active").siblings().removeClass("active");
+    });
+    
+    $(".step05").click( function() {
+        $("#line-progress").css("width", "100%");
+        $(".analysis").addClass("active").siblings().removeClass("active");
+    });
+    
+     
+        </script>
+</section>
+
+<section class="section" id="contact"
+<div class="wrapper">
+    <div class="section-header">
+        <h2> Keep In Touch</h2>
+        <div class="text-italic text-large">Contact Us</div>
+        <div class="line-border"></div>
+    </div>
+</div>
+        <div class="d-grid contact-view">
+          <div class="cont-details">
+
+
+            <div class="cont-top">
+
+              <div class="cont-left text-center">
+                <span class="fa fa-phone text-primary"></span>
+              </div>
+
+              <div class="cont-right1">
+                <h6>Call Us</h6>
+                <p><a href="#">+123 45 67 89</a></p>
+              </div>
+
+            </div>
+
+
+            <div class="cont-top margin-up">
+
+              <div class="cont-left text-center">
+                <span class="fa fa-envelope-o text-primary"></span>
+              </div>
+              <div class="cont-right2">
+                <h6>Email Us</h6>
+                <p><a href="mailto:example@mail.com" class="mail">listenexcellence@gmail.com</a></p>
+              </div>
+              
+            </div>
+
+
+            <div class="cont-top margin-up">
+              <div class="cont-left text-center">
+                <span class="fa fa-map-marker text-primary"></span>
+              </div>
+              <div class="cont-right3">
+                <h6>Address</h6>
+                <p>Ghana Road Ijebu.</p>
+              </div>
+            </div>
+          </div>
+
+
+
+          <div class="map-content">
+            <form action="#" method="post">
+              <div class="twice-two">
+                <input type="text" class="form-control" name="w3lName" id="w3lName" placeholder="Name" required="">
+                <input type="email" class="form-control" name="w3lSender" id="w3lSender" placeholder="Email"
+                  required="">
+              </div>
+
+              <div class="twice">
+                <input type="text" class="form-control" name="w3lSubject" id="w3lSubject" placeholder="Subject"
+                  required="">
+              </div>
+
+              <textarea name="w3lMessage" class="form-control" id="w3lMessage" placeholder="Message"
+                required=""></textarea>
+              <button type="submit" class="btn btn-contact">Send Message</button>
+            </form>
+          </div>
+</div>
+</section>
+<footer>
+	<div class="footer-content">
+		<h3>Krunch</h3>
+		<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illo iste corrupti doloribus odio sed!</p>
+		<ul class="socials">
+			<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+			<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+			<li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+			<li><a href="#"><i class="fa fa-youtube"></i></a></li>
+			<li><a href="#"><i class="fa fa-linkedin-square"></i></a></li>
+		</ul>
+	</div>
+	<div class="footer-bottom">
+		<p>copyright &copy;2020 Krunch. designed by <span>TheTrybeCo</span></p>
+	</div>
+</footer>
+
+
+
+
+
+
+</body>
+</html>
